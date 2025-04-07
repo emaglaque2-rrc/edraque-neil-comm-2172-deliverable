@@ -21,6 +21,5 @@
 
 ![CSS Code](/images/edraque-css.png?raw=true "Edraque's CSS Code")
 
-
 ### Neil's Resume
 
