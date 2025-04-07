@@ -9,9 +9,9 @@
 
 ### Edraque's Resume
 
+![Part 1 of Edraque's Resume](/images/edraque-resume-1.png?raw=true "Edraque's Resume")
 
-
-
+![Part 2 of Edraque's Resume](/images/edraque-resume-2.png?raw=true "Edraque's Resume")
 
 ![Part 3 of Edraque's Resume](/images/edraque-resume-3.png?raw=true "Edraque's Resume")
 
