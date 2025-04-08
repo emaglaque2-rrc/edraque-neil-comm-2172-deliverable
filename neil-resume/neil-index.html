@@ -1,90 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Neil Tolentino - Resume</title>
-  <!-- Linking external CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+          content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+<link rel="stylesheet" href="styles.css">
+  
 </head>
-<body>
+    <body>
+    <!-- Headers -->
+    <header>
+    <!-- Add Photo/Image -->       
+            
+            <img src="resume-photo.jpg" alt="Neil's resume photo." width="120">
+    <!--Header and Paragraph -->        
+            <h1 class="name">Neil Tolentino</h1>
+            <p class="position">Application Development and Delivery Student</p>
 
-  <header>
-    <h1>Neil Tolentino</h1>
-    <p>Front-end Developer</p>
-  </header>
+    </header>
+    <div class="flexbox-container">
+    <section class="flexbox-item flex-item1">
+    <!-- Contact information -->
+    <h2>Contact Information</h2>
+    
+    <ul>
+        <li><b>Address: </b>1342 William Avenue, Winnipeg, MB, R2X 0X3</li>
+        <li><b>Phone: </b>(431) 557-5685</li>
+        <li><b>Email: </b>ntolentino@gmail.com</li>
+        <li><b>GitHub: </b>github.com/ntolentino4</li>
+        <li><b>LinkedIn: </b>linkedin.com/in/ntolentino</li>
 
-  <main>
-    <section>
-      <h2>Contact Information</h2>
-      <ul>
-        <li><strong>Address:</strong> 1342 William Avenue, Winnipeg, MB, R2X 0X3</li>
-        <li><strong>Phone:</strong> (431) 557-5685</li>
-        <li><strong>Email:</strong> neiltolentino06@gmail.com</li>
-        <li><strong>GitHub:</strong> <a href="https://github.com/ntolentino4" target="_blank">github.com/ntolentino4</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ntolentino" target="_blank">linkedin.com/in/ntolentino</a></li>
-      </ul>
+    </ul>
     </section>
 
-    <section>
-      <h2>About Me</h2>
-      <p>
-        I am a skilled front-end developer experienced in creating user-friendly websites and applications.
+    <section class="flexbox-item flex-item2">
+    <!-- About Me -->
+     <h2>About Me</h2>
+    <p>I am a skilled front-end developer experienced in creating a user friendly and websites and applications.
         I use user interface and user experience design principles to deliver high-quality products that are accessible
         and meet client expectations.
-      </p>
+    </p>
     </section>
+    </div>
 
-    <section>
-      <h2>Skills</h2>
-      <ul>
+    <div class="flexbox-container2">
+    <section class="flexbox-item2 flex-item3">
+    <!-- Skills -->
+     <h2>Skills</h2>
+     <ul>
         <li>HTML and CSS</li>
         <li>Testing and Debugging</li>
         <li>Version Control (Git & GitHub)</li>
         <li>Database Management (SQL)</li>
         <li>JavaScript</li>
         <li>Python</li>
-      </ul>
+     </ul>
+    </section>
+    
+    <section class="flexbox-item2 flex-item4">
+    <!-- Work Experience --> 
+    <h2>Experience</h2>
+    <ul>
+        <li><b>Front-end Developer</b>
+        <ul>
+            <li>Designed new features while managing olders ones.</li>
+            <li>Monitored application performance, overseeing traffic drops related to usability.</li>
+            <li>Created user-friendly web pages by using markup languages, such as HTML.</li>
+        </ul>
+
+        <li><b>Intern Web Developer</b>
+        <ul>
+            <li>Wrote custom HTML, CSS, PHP and JavaScript for existing websites and applications.</li>
+            <li>Designed, recommend, and pitch improvements to new and existing features.</li>
+            <li>Assisted in troubleshooting issues on web-based systems.</li>
+        </ul>
+        </li>
+    </ul>    
+    </section>
+    </div>
+
+    <section>
+    <!-- Education -->
+    <h2 class="education">Education</h2>
+
+    <ul>
+        <li><b>Application Development and Delivery Program</b>Red River College Polytechnic, 2024</li>
+        <li><b>Business Analysis</b> Red River College Polytechnic, 2022</li>
+    </ul>
     </section>
 
     <section>
-      <h2>Experience</h2>
-      <h3>Front-end Developer</h3>
-      <ul>
-        <li>Designed new features while managing older ones.</li>
-        <li>Monitored application performance, overseeing traffic drops related to usability.</li>
-        <li>Created user-friendly web pages using markup languages like HTML.</li>
-      </ul>
+        <!-- Projects and Portfolio -->
+         <h2 class="projects">Projects</h2>
+         
+         <ul class="project_list">
+            <li><b>My Portfolio: </b>A collection of my portfolios. Web templates, graphic designs, and Art Illustrations  <a href="https://www.wearedevelopers.com/magazine/web-developer-portfolio-examples" target="_blank" rel=noopener>Visit Here</a>
+            </li>
+         </ul>
+      
+      </section>
 
-      <h3>Intern Web Developer</h3>
-      <ul>
-        <li>Wrote custom HTML, CSS, PHP, and JavaScript for existing websites and applications.</li>
-        <li>Recommended and pitched improvements to features.</li>
-        <li>Assisted in troubleshooting issues on web-based systems.</li>
-      </ul>
+    <p class="thank_you">Thank you for reviewing my application, references are available upon request.</p>
+   
+    <!-- SVG Graphics -->
+    <section class="logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+        <!-- Background circle -->
+        <circle cx="60" cy="30" r="28" fill="#1e3a8a"/>
+    
+        <!-- Initials "J" -->
+        <text x="30" y="40" font-family="Arial, sans-serif" font-size="30" fill="white" font-weight="bold">J</text>
+    
+        <!-- Initials "L" -->
+        <text x="55" y="40" font-family="Arial, sans-serif" font-size="30" fill="white" font-weight="bold">L</text>
+    </svg>
     </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Software Development</strong> – Red River College Polytechnic, 2023</li>
-        <li><strong>Business Analysis</strong> – Red River College Polytechnic, 2020</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Projects</h2>
-      <p>
-        <strong>My Portfolio:</strong> A collection of my portfolios including web templates, graphic designs, and art illustrations.
-        <a href="https://www.wearedevelopers.com/magazine/web-developer-portfolio-examples" target="_blank">Visit Here</a>
-      </p>
-    </section>
-
-    <footer>
-      <p>Thank you for reviewing my application. References are available upon request.</p>
-    </footer>
-  </main>
-
-</body>
+    </body>
 </html>
