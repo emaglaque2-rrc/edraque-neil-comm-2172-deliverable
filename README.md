@@ -23,3 +23,10 @@
 
 ### Neil's Resume
 
+![Neil's Resume](/images/neil-resume.png?raw=true "Neil's Resume website version")
+
+![Neil's Responsive](/images/neil-resume-responsive.png?raw=true "Neil's Resume website version")
+
+![HTML Code](/images/neil-html.png?raw=true "Neil's HTML Code")
+
+![CSS Code](/images/neil-css.png?raw=true "Neil's CSS Code")
