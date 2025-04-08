@@ -1,0 +1,175 @@
+/* --- Header section--- */
+
+header {
+    background-position: center;
+    background-color: #3b4250;
+
+    line-height: 1em;
+    text-align: center;
+    margin: 5px;
+    }
+
+img {
+    border-radius: 50%;
+    border: 3px solid #171840;
+    object-fit: fill;
+    max-width: 70%;
+    max-height: 50%;
+    height: 5rem;
+    width: 5rem;
+    }
+
+h2  {color: #33415c;
+    background-color: #c7ccd6;}
+
+h3 {color: #33415c;
+    background-color: #c7ccd6;}
+
+.name {
+    color: whitesmoke;
+    }
+
+.position {
+    color: white;
+    line-height: 3em;}
+
+
+/* --- Layout and Positioning--- */
+
+/* --- FlexBox 1 --- */
+.flexbox-container {
+    display: flex;
+    justify-content:space-evenly}
+
+.flexbox-item {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid #3b4250;
+    background-color: #e9ebef;}
+/* --- Contact Info--- */
+.flex-item1 {
+    min-height: 200px;}
+
+/* --- About Me--- */
+.flex-item2 {
+    min-height: 200px;}
+
+
+/* --- FlexBox 2 --- */
+.flexbox-container2 {
+    display: flex;
+    justify-content: space-evenly;}
+
+.flexbox-item2 {
+    width: 800px;
+    margin: 5px;
+    border: 1px solid #3b4250;
+    background-color: #e9ebef;}
+
+/* --- Skills--- */
+.flex-item3 {
+    min-height: 200px;
+}
+
+/* ---Experience--- */
+.flex-item4 {
+    min-height: 200px;}
+
+
+/* ---Education--- */
+.education {
+    text-align: center;}
+
+/* ---Projects--- */
+.projects {
+    text-align: center;
+}
+
+.project_list {
+    line-height: 2em;
+}
+
+/* ---Thank You--- */
+.thank_you {
+    text-align: center;
+    border-top: 2px solid #3b4250;
+    line-height: 5em;
+}
+
+/* ---Logo--- */
+.logo {
+    text-align: center;
+}
+
+/* --- Custom Fonts--- */
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+/* --- Header 2 --- */
+h2  {color: #33415c;
+    font-family: "Arial", sans-serif;
+    background-color: #c7ccd6;}
+
+/* --- Header 3 --- */
+h3 {color: #33415c;
+        font-family: "Arial", Sans-Serif;
+        background-color: #c7ccd6;}
+
+/* --- Paragraph Position --- */
+.position {
+    font-size: 1.2em;
+}
+
+
+/* --- Responsive Design --- */
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+
+    .flexbox-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .flexbox-item {
+        width: 600px;
+        margin: 5px;
+        border: 1px solid #3b4250;
+        background-color: #e9ebef;}
+    /* --- Contact Info--- */
+    .flex-item1 {
+        min-height: 200px;}
+    
+    /* --- About Me--- */
+    .flex-item2 {
+        min-height: 200px;}
+    
+    
+    
+    .flexbox-container2 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;}
+    
+    .flexbox-item2 {
+        width: 600px;
+        margin: 5px;
+        border: 1px solid #3b4250;
+        background-color: #e9ebef;}
+    
+    /* --- Skills--- */
+    .flex-item3 {
+        min-height: 200px;
+    }
+    
+    /* ---Experience--- */
+    .flex-item4 {
+        min-height: 200px;
+    }
+    
+}
